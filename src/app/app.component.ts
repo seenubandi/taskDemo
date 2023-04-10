@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// import { falind } from '@fortawesome/free-solid-svg-icons'
+
 
 @Component({
   selector: 'app-root',
