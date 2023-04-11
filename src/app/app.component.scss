@@ -326,6 +326,7 @@
     border-radius: 10px;
     margin: 20px 0px 0px 20px ;
     color:white;
+    justify-content: space-between;
   }
   .bottom{
     border-top:5px solid rgb(216, 208, 208);
@@ -337,4 +338,12 @@
   }
   .text1{
     margin-top: 10px;
+  }
+  .btn-light{
+    height: 45px;
+    width: AUTO;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    padding: 5px;
   }
