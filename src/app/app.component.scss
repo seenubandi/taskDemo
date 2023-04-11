@@ -6,9 +6,11 @@
 }
 .nav-right{
     margin-right: 20px;
+    color:rgba(151,69,95,255);
 }
 .bg-container {
     min-height: 200vh;
+    background-color: white;
 }
 
 .heading2 {
@@ -44,10 +46,11 @@
     width: 25px;
 }
 
+
 .top-first1 {
     color: grey;
     font-style: serif;
-    border: 2px solid maroon;
+    border: 2px solid rgba(151,69,95,255);
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -108,7 +111,7 @@
     padding: 2px;
     width: 35px;
     padding: 3px;
-    background-color: #9C464F;
+    background-color: #80434a;
 }
 .navbar-container{
     background-color: #9C464F;
@@ -116,16 +119,18 @@
     font-family: sans-serif;
 }
 .second-section{
-    padding: 0px 40px;
+    padding: 0px 30px;
     padding-bottom: 0;
-    background-color: #cdeeee;
+    background-color: #ebebeb;
+    min-height: 40vh;
 }
+    
 .nav-link{
     color: white;
 }
 .navbar-brand {
     margin-left: 20px;
-    background-color: #5B0A13;
+    background-color: #97455f;
     
 }
 .corousel-section{
@@ -133,31 +138,31 @@
     width: 900;
     background-image: url('../assets/new.png');
     background-size: cover;
-    
-    
+    align-items: end;
+    padding-bottom:30px;
+    padding-right: 15px;
 }
 .corousel-container{
     background-color: white;
     padding: 20px;
     
 }
-
-.container {
-    margin: 55px 0 0; 
-    text-align: center;
-
-    .hr-line {
-        border: 5px solid gray;
-        position: absolute;
-        margin: 0 5%;
-        width: 80%;
+.corousel-bottom{
+    background-color: rgba(173,173,173,255);
+    color: black;
+    height: 100px;
+    width: 400px;
+    padding: 10px;
+    text-align:left;
+    font-family: sans-serif;
+    h1{
+        font-size: 25px;
     }
-    h1 {
-        position: relative;
-        bottom: 21px;
-        
+    p{
+        font-size:15px;
     }
 }
+
 .circle1{
     width: 15px;
     height: 15px;
@@ -176,9 +181,10 @@
 .image{
     height:64px;
     width:64px;
+    
 }
 .card-container{
-    padding: 50px;
+    padding: 16px 100px;
 }
 .card-head{
     font-size: 15px;
@@ -193,25 +199,142 @@
 }
 .card{
     border:none;
+    color:#97455f ;
 }
 .title-line1{
     background-color: gray;
     height: 6px;
     margin-left:90px;
-    width: 37%
+    width: 36.5%
 }
 .title-line{
     background-color: gray;
     height: 6px;
-    width: 37%;
+    width: 36.5%;
     
 }
 .title-head{
     padding-top: 5px;
     font-size: 20px;
-    margin-left: 11px;
-    margin-right: 11px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 .home{
-    background-color: #612F34;
+    background-color: rgba(106,49,68,255);
 }
+.linkedin-icon{
+    background-color: #4d9898;
+    height:35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(223, 235, 235);
+    text-align: center;
+    margin-left:10px;
+    
+}
+.linkedin{
+    height:21px;
+    width:21px;
+   padding-top:6px ;
+   padding-right:6px ;
+}
+.image-lorum{
+    height: 128px;
+    width:128px;
+    border-radius: 50%;
+}
+.profile{
+    margin-right: 10px;
+    h1{
+        color: #d4d4d4;
+        font-size: 100px;
+    }
+}
+.linkedin-icon-last {
+    background-color: orange;
+}
+.title-head{
+    font-size: 25px;
+}
+.title-head-bottom{
+    font-size: 15px;
+    padding-top: 10px;
+}
+.anchor{
+    color:#4d9898
+}
+.title-line3{
+    background-color: gray;
+    height: 6px;
+    margin-left: 4px;
+    margin-right:4px;
+    width: 37%
+}
+.title-line4{
+    background-color: gray;
+    height: 6px;
+    
+    width: 37%
+}
+.bottom-sub{
+    text-align: left;
+    h2{
+        font-size: 20px;
+        color:black;
+    }
+    p{
+        font-size:16px;
+    }
+}
+.navBarContainer {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    color:#80434a;
+    padding: 30px 25px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #9C464F;
+  
+    .socialIcons {
+      display: flex;
+      gap: 20px;
+  
+      a {
+        background-color: lightgray;
+        color: azure;
+        padding: 7px;
+        border-radius: 100rem;
+        transition: 0.3s;
+        fa-icon {
+        }
+      }
+      a:hover {
+        background-color: orange;
+      }
+    }
+  }
+  .text{
+    border-width:0px;
+    border-radius: 5px;
+
+  }
+  .bottom-first {
+    background-color: #80434a;
+    height: 100px;
+    width: 80vw;
+    border-radius: 10px;
+    margin: 20px 0px 0px 20px ;
+    color:white;
+  }
+  .bottom{
+    border-top:5px solid rgb(216, 208, 208);
+    margin-top:16px;
+    background-color: rgb(243, 238, 238) ;
+    h1{
+        font-size: 25px;
+    }
+  }
+  .text1{
+    margin-top: 10px;
+  }
