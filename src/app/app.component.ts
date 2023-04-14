@@ -6,8 +6,9 @@ import {
   faGooglePlus,
   faPinterest,
   faRedditSquare,
-} from '@fortawesome/free-brands-svg-icons';
 
+} from '@fortawesome/free-brands-svg-icons';
+import {faRss} from '@fortawesome/free-solid-svg-icons'
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -19,5 +20,5 @@ export class AppComponent {
   twitterIcon = faTwitter;
   googleIcon = faGooglePlus;
   pinterestIcon = faPinterest;
-  rssIcon = faRedditSquare;
+  rssIcon = faRss;
 }

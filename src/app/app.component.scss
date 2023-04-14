@@ -78,11 +78,15 @@
 .header-heading {
   color: black;
   padding-right: 10px;
+  letter-spacing: -1px;
   font-family: "Times New Roman", Times, serif;
 }
 
 .header-heading span {
   font-size: 55px;
+}
+.header-left {
+  margin-top:40px;
 }
 
 .slash-head {
@@ -108,36 +112,62 @@
 .header-button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: #9c464f;
+  background-color: #80434a;
+  font-family: 'Courier New', Courier, monospace !important;
+  font-weight: bold;
+  transform: scaleY(1.2);
+  padding: auto 20px;
 }
 
 .under {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  height: 30px;
-  padding: 2px;
-  width: 35px;
-  padding: 3px;
+  border:none;
+  outline: none;
   background-color: #80434a;
-  font-family: Georgia;
+  transform: scaleX(1.7);
+  opacity: 0.95;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  width: 24px; 
+  height: 35px
 }
 
+.border-hr{
+  width: 25px;
+  height: 90px;
+  background-color: #ebebeb;
+  
+}
+.border1{
+  justify-content: space-between;
+}
+.border2{
+  
+}
 .navbar-container {
-  background-color: #9c464f;
+  background-color: #80434a;
   color: white;
   font-family: sans-serif;
-  border-radius: 10px;
+  border-top-right-radius: 10px ;
+  border-top-left-radius: 10px;
+  margin-top: 50px !important;
 }
 
 .second-section {
-  padding: 0px 30px;
-  padding-bottom: 0;
+  padding: 0px 25px 0px 25px;
+  
   background-color: #ebebeb;
-  min-height: 40vh;
+  
 }
 
 .nav-link {
   color: white;
+  margin-left: 18px;
+  font-size: 21px;
 }
 
 .navbar-brand {
@@ -147,17 +177,20 @@
 
 .corousel-section {
   height: 500px;
-  width: 900;
+  width: 86vw;
   background-image: url("../assets/new.png");
   background-size: cover;
   align-items: end;
   padding-bottom: 30px;
-  padding-right: 15px;
+  padding-right: 12px;
+  
+  margin-top: 40px;
 }
 
 .corousel-container {
   background-color: white;
   padding: 20px;
+  padding-top: 0px;
 }
 
 .corousel-bottom {
@@ -165,19 +198,19 @@
   color: black;
   height: 170px;
   width: 43vw;
-  padding: 24px;
-
+  padding: 20px 24px 24px 34px;
+  opacity:0.9;
   text-align: left;
   font-family: "Times New Roman", Times, serif;
 
   h1 {
     font-size: 45px;
-    font-weight: 200;
+    font-weight: 500;
   }
 
   p {
     font-size: 25px;
-
+    opacity: 0.7;
   }
 }
 
@@ -195,7 +228,8 @@
 
 .circle-container {
   display: flex;
-  margin: 20px;
+  margin-right: 10px;
+  margin-top:20px;
   text-align: center;
 }
 
@@ -218,7 +252,7 @@
 }
 
 .sub-card {
-  padding: 10px;
+  padding: 5px;
   color: #ae9583;
 
 }
@@ -227,18 +261,28 @@
   border: none;
   color: #97455f;
 }
+.title1 {
+  margin-left:50px;
+  
+}
+.title {
+  margin-left:20px;
+}
 
 .title-line1 {
   background-color: gray;
   height: 6px;
-  margin-left: 90px;
-  width: 38%;
+  margin-left: 60px;
+  width: 39.5%;
 }
 
 .title-line {
   background-color: gray;
   height: 6px;
-  width: 38%;
+  width: 39.5%;
+}
+.title-heading{
+  
 }
 
 .title-head {
@@ -290,8 +334,14 @@
   }
 }
 
+
 .home {
   background-color: rgba(106, 49, 68, 255);
+  border-top-right-radius:0px ;
+  border-bottom-right-radius:0px ;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 21px;
+  padding: 0 16px;
 }
 
 .linkedin-icon {
@@ -312,8 +362,8 @@
 }
 
 .image-lorum {
-  height: 128px;
-  width: 128px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
 }
 
@@ -336,7 +386,9 @@
 
 .title-head-bottom {
   font-size: 15px;
-  padding-top: 10px;
+  padding-top: 9px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .anchor {
@@ -346,18 +398,15 @@
 .title-line3 {
   background-color: gray;
   height: 6px;
-  margin-left: 40px;
+  
 
-  width: 33%;
+  width: 245px;
 }
 
-.title-line4 {
-  background-color: gray;
-  height: 6px;
 
-  width: 33%;
+.title-container {
+  width: 90vw;
 }
-
 .bottom-sub {
   text-align: left;
   font-family: "Courier New", Courier, monospace;
@@ -377,10 +426,12 @@
   height: 40px;
   display: flex;
   color: #80434a;
-  padding: 30px 25px;
+  padding: 30px ;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid #9c464f;
+  opacity:0.8;
+  
 
   .socialIcons {
     display: flex;
@@ -400,31 +451,61 @@
 
     a:nth-child(5) {
       background-color: orange;
+      width: 37px;
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      // height: 32px;
     }
+  }
+
+  .navMenu {
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: bold;
+    transform: scaleY(1.3);
+    word-spacing: -5px;
+    font-size: 1.04rem;
   }
 }
 
 .text {
+  font-family: 'Courier New', Courier, monospace !important;
   border-width: 0px;
   border-radius: 5px;
+  width:340px;
+  padding-left: 12px;
+  color: gray;
+  font-weight: bold;
+  opacity: 0.7;
+  transform: scaleY(1.2);
+}
+
+.navbar-nav {
+  font-family: 'Courier New', Courier, monospace !important;
+    word-spacing: -5px;
+    font-size: 1.2rem;
 }
 
 .bottom-first {
   background-color: #80434a;
-  height: 150px;
-  width: 83vw;
+  height: 160px;
+  width: 87vw;
   border-radius: 10px;
-  margin: 20px 100px;
-  padding: 20px;
-  color: white;
+  margin: 50px 70px;
+  padding: 25px;
+  color: #ebebebda;
   justify-content: space-between;
   font-family: "Times New Roman", Times, serif;
-  padding: 10px;
+  padding: 13px;
+  opacity:0.9;
 }
 
 .bottom-second {
   width: 45vw;
-  margin-left: 40px;
+  margin-left: 25px;
+}
+.bottom-second2 {
+  width: 45vw;
 }
 
 .bottom {
@@ -442,14 +523,15 @@
 }
 
 .btn-light {
-  width: 415px;
-  height: 83px;
+  width: 420px;
+  height: 85px;
   font-size: 40px;
   font-family: "Times New Roman", Times, serif;
-  margin-top: 20px;
-  padding: 3px;
+  margin-top: 30px;
+  padding: 9px;
   color: #80434a;
   margin-right: 35px;
+  border-radius: 10px;
 }
 
 .secondSection {
@@ -462,7 +544,9 @@
 
     .quotes {
       h1 {
+        padding-top: 5px;
         font-size: 150px;
+        transform: scaleX(0.8);
         color: lightgray;
       }
     }
@@ -525,27 +609,18 @@
   }
 }
 
-.under {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  height: 30px;
-  padding: 2px;
-  width: 35px;
-  padding: 5px;
-  background-color: #80434a;
-  font-family: Georgia;
-}
+
 
 .sub-bottom-first {
   padding: 11px 35px;
 
   h1 {
-    font-size: 50px;
+    font-size: 57px;
 
   }
 
   p {
-    font-size: 25px;
+    font-size: 29px;
     ;
   }
 
